@@ -94,8 +94,8 @@ app.mount('#app') // monte l'application Vue sur l'élément avec l'ID 'app'
 // Les props permettent de passer des données aux composants
 defineProps({
   product: {
-    type: Object,
-    required: true,
+    type: Object, // définit le type de la prop, il existe plusieurs types (String, Number, Boolean, Array, Object, etc.)
+    required: true, // indique que cette prop est obligatoire
   },
 })
 </script>
